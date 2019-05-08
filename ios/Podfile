@@ -1,0 +1,22 @@
+# Use iOS 9 and above
+platform :ios, '9.0'
+
+
+target 'teststripe' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Stripe
+  pod 'Stripe', '~> 14.0.0'
+
+  # Install additional dependencies
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Performance'
+  pod 'Firebase/Storage'
+end
+
